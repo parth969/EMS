@@ -15,6 +15,7 @@
 		03BA7E0F232249610027C9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BA7E0D232249610027C9D8 /* LaunchScreen.storyboard */; };
 		03BA7E1A232249610027C9D8 /* EmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA7E19232249610027C9D8 /* EmsTests.swift */; };
 		03BA7E25232249610027C9D8 /* EmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA7E24232249610027C9D8 /* EmsUITests.swift */; };
+		03BA7E3423224AE80027C9D8 /* bottomline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA7E3323224AE80027C9D8 /* bottomline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		03BA7E20232249610027C9D8 /* EmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BA7E24232249610027C9D8 /* EmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmsUITests.swift; sourceTree = "<group>"; };
 		03BA7E26232249610027C9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03BA7E3323224AE80027C9D8 /* bottomline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		03BA7E00232249610027C9D8 /* Ems */ = {
 			isa = PBXGroup;
 			children = (
+				03BA7E3223224ADA0027C9D8 /* New Group */,
 				03BA7E01232249610027C9D8 /* AppDelegate.swift */,
 				03BA7E03232249610027C9D8 /* ViewController.swift */,
 				03BA7E05232249610027C9D8 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				03BA7E26232249610027C9D8 /* Info.plist */,
 			);
 			path = EmsUITests;
+			sourceTree = "<group>";
+		};
+		03BA7E3223224ADA0027C9D8 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				03BA7E3323224AE80027C9D8 /* bottomline.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03BA7E3423224AE80027C9D8 /* bottomline.swift in Sources */,
 				03BA7E04232249610027C9D8 /* ViewController.swift in Sources */,
 				03BA7E0A232249610027C9D8 /* Ems.xcdatamodeld in Sources */,
 				03BA7E02232249610027C9D8 /* AppDelegate.swift in Sources */,
